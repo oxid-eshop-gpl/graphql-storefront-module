@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="./styles/graphdoc.css" />
-    <title>ProductScalePrice</title>
+    <title>Translation</title>
     <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700" rel="stylesheet"><link type="text/css" rel="stylesheet" href="./assets/code.css" /><link type="text/css" rel="stylesheet" href="./assets/require-by.css" />
 </head>
 <body class="slds-scrollable--y">
@@ -345,7 +345,7 @@
                 ProductRating
             </a>
         </li>
-        <li class="slds-is-active" title="ProductScalePrice">
+        <li  title="ProductScalePrice">
             <a href="productscaleprice.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
                 ProductScalePrice
             </a>
@@ -400,7 +400,7 @@
                 Subscriber
             </a>
         </li>
-        <li  title="Translation">
+        <li class="slds-is-active" title="Translation">
             <a href="translation.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
                 Translation
             </a>
@@ -641,7 +641,7 @@
     </div>
     <div class="container">
         <p class="slds-text-title--caps slds-text-color--weak">OBJECT</p>
-        <h1 class="slds-text-heading--large">ProductScalePrice</h1>
+        <h1 class="slds-text-heading--large">Translation</h1>
         <div class="slds-text-body--regular"></div>
     </div>
 </section>
@@ -653,7 +653,7 @@
             </a>
             GraphQL Schema definition
         </h2>
-        <code class="highlight"><ul class="code" style="padding-left:42px"><li><span class="keyword operator ts">type</span> <span class="identifier">ProductScalePrice</span> {</li><li></li><li><span class="tab"><span class="comment line">#   Whether the scale price is</span></span></li><li><span class="tab"><span class="comment line">#   - a new absolute price (you can query that in the `absolutePrice` field)</span></span></li><li><span class="tab"><span class="comment line">#   - or a percentage discount (you can query that in the `discount` field)</span></span></li><li><span class="tab"><span class="meta">absoluteScalePrice</span>: <a class="support type" href="boolean.doc.html">Boolean</a>! </span></li><li></li><li><span class="tab"><span class="comment line">#   </span></span></li><li><span class="tab"><span class="meta">absolutePrice</span>: <a class="support type" href="float.doc.html">Float</a> </span></li><li></li><li><span class="tab"><span class="comment line">#   </span></span></li><li><span class="tab"><span class="meta">discount</span>: <a class="support type" href="float.doc.html">Float</a> </span></li><li></li><li><span class="tab"><span class="comment line">#   </span></span></li><li><span class="tab"><span class="meta">amountFrom</span>: <a class="support type" href="int.doc.html">Int</a>! </span></li><li></li><li><span class="tab"><span class="comment line">#   </span></span></li><li><span class="tab"><span class="meta">amountTo</span>: <a class="support type" href="int.doc.html">Int</a>! </span></li><li>}</li></ul></code>
+        <code class="highlight"><ul class="code" style="padding-left:28px"><li><span class="keyword operator ts">type</span> <span class="identifier">Translation</span> {</li><li></li><li><span class="tab"><span class="comment line">#   </span></span></li><li><span class="tab"><span class="meta">key</span>: <a class="support type" href="string.doc.html">String</a>! </span></li><li></li><li><span class="tab"><span class="comment line">#   </span></span></li><li><span class="tab"><span class="meta">value</span>: <a class="support type" href="string.doc.html">String</a>! </span></li><li>}</li></ul></code>
     </div>
 </section>
 <section>
@@ -664,7 +664,7 @@
             </a>
             Require by
         </h2>
-        <ul class="require-by"><li><a href="product.doc.html" title="Product - ">Product<em>null</em></a><li></ul>
+        <ul class="require-by"><li><a href="query.doc.html" title="Query - ">Query<em>null</em></a><li></ul>
     </div>
 </section>
 <footer>
